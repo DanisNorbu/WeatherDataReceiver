@@ -18,7 +18,7 @@ public class Main {
             int limit = scanner.nextInt();
 
             // Получение API ключа
-            String apiKey = "05bd9821-6ff1-42c4-82fa-abe28e2d9a78"; // Впиши свой API ключ здесь
+            String apiKey = "ключ_API"; // Впиши свой API ключ здесь
 
             // Создаем объект WeatherFetcher и передаем ему API ключ
             WeatherFetcher weatherFetcher = new WeatherFetcher(apiKey);
